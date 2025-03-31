@@ -36,6 +36,8 @@ const MainComponent = () => {
     }
   }
 
+  console.log(error)
+
   const handleDeleteAll = () => {
     setImg(undefined);
     setPrompt(undefined);

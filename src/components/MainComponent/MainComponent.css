@@ -10,7 +10,6 @@
     font-family: 'Inter', sans-serif;
   }
   
-  /* Encabezado */
   .header {
     text-align: center;
     padding: 1rem 0;
@@ -20,7 +19,6 @@
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
   
-  /* Contenedor de mensajes (simulación de historial) */
   .messages-container {
     flex-grow: 1;
     overflow-y: auto;
@@ -42,7 +40,6 @@
     color: #333;
   }
   
-  /* Zona inferior con input */
   .input-area {
     border-top: 1px solid #ddd;
     padding: 1rem 0;
@@ -101,7 +98,6 @@
     width: 40%;
   }
   
-  /* Botón de enviar */
   .buttons-cnt .send-button {
     align-self: flex-end;
     padding: 0.6rem 1.4rem;
