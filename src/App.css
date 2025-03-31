@@ -1,0 +1,29 @@
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.logo {
+  display: none;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Inter', sans-serif;
+}
