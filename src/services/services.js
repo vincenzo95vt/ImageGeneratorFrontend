@@ -13,7 +13,7 @@ export const getUrlImage = async (object) => {
         if(!response.ok || data.error){
             throw new Error(data.error);
         }
-        console.log(data);
+        console.log("aqui", data);
         return data;
     } catch (error) {
         throw error;
