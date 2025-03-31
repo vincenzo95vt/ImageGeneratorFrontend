@@ -2,7 +2,7 @@
 export const getUrlImage = async (object) => {
     try {
         console.log(object);
-        const response = await fetch('http://localhost:5000/generate', {
+        const response = await fetch('https://imagegenerator-cskt.onrender.com/generate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
